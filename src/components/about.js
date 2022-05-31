@@ -3,7 +3,7 @@ import aboutPic from './Frame 1.png'
 import interest from './interests3.png'
 import misc from './misc2.png'
 import lang from './lang4.png'
-document.body.style.background = "#080424";
+// document.body.style.background = "#080424";
 
 
 
