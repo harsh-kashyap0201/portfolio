@@ -1,0 +1,35 @@
+.aboutpage{
+    margin-top: 0px;
+    /* margin-left: 10vw; */
+    position: relative;
+}
+.heading{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.subhead{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    
+}
+
+.badge{
+    align-items: left;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.08);
+    transition: ease-in-out 0.3s ;
+    border-radius: 0;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: large;
+}
+.badge img{
+    max-width: 50px;
+    margin-left: 0;
+    height: 50px;
+    margin-right: 10px;
+
+}

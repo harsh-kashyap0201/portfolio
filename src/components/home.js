@@ -1,13 +1,17 @@
 import { Component } from "react";
-
-import pic from './WhatsApp_Image_2022-05-26_at_8.09.35_PM-removebg-preview.jpg';
+import {Link} from "react-router-dom";
+// import "../components/styles/home.css"
+import pic from './images/me.png';
+import {motion} from 'framer-motion';
 export default class Home extends Component {
     render() {
         return (
-            <div>
-            
-            <div class="area" >
-                        <ul class="circles">
+            <motion.div 
+            initial={{opacity:0}} 
+            animate={{opacity:1}} 
+            exit={{opacity:0,transition:{duration:0.5}}}>
+            <div className="area" >
+                        <ul className="circles">
                                 <li></li>
                                 <li></li>
                                 <li></li>
@@ -35,30 +39,22 @@ export default class Home extends Component {
                 </div>
                 <div className="container text-center landingText d-flex align-items-start flex-column">
                     <h1 className="text-start">
-                        <span className="landingName">I'M HARSH KASHYAP.</span><br /><b>WEB DESIGNER & DEVELOPER.</b> 
+                        <span className="landingName">I'M HARSH KASHYAP.</span><br /><b>Full Stack Developer and Blockchain Enthusiast.</b> 
+                        <h1>
+                        <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, Im Si.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
+                            <span class="wrap"></span>
+                        </a>
+                        </h1>
                     </h1>
                     <p className="text-start">
-                        I'm a Web Designer & Developer based in India. I have
-                        experience in designing and developing websites. I
-                        specialize in creating responsive websites.
+                        I'm a Full stack developer and a Blockchain Enthusiast based in India. Currently in my 3rd year at Vellore Institute of Technology.
                     </p>
                     <div className="button_slide slide_right ">MORE ABOUT ME </div>
                 </div>
-                <input type="checkbox" id="active" />
-                <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
-                <div class="wrapper">
-                    <ul>
-                        <li className="menuOptions"><a href="#">Home</a></li>
-                        <li className="menuOptions"><a href="#">About</a></li>
-                        <li className="menuOptions"><a href="#">Resume</a></li>
-                        <li className="menuOptions"><a href="#">Projects</a></li>
-                        <li className="menuOptions"><a href="#">Contact me</a></li>
-                    </ul>
-                </div>
             </div>
             </div >
-            <center>Made with <span className='format'>❤</span> by <span className='format'>Harsh</span></center>
-            </div>
+            <div className='my-3'> <center>Made with 💓 by <span className='format'>Harsh</span></center></div>
+            </motion.div>
         );
     }
 }
