@@ -1,24 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
 .aboutpage{
-    margin-top: 0px;
-    /* margin-left: 10vw; */
+    
     position: relative;
+    background: rgba(0, 0, 0, 0.7);
+    /* border-radius: 16px; */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+        padding: 0vw 2vh;
+        transition: all 265ms ease-out;
+        margin-top: 7vh;;
+        margin-right: 6vw;
+        
+}
+.baseFont{
+    font-size: max(1.3vw, 15px);
+    
 }
 .heading{
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
+    font-size: max(3vw, 25px);
 }
 .subhead{
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
+    font-size: max(2vw, 20px);
     
+}
+.subheadAbout{
+    color:#fa39b0;
+    font-size: max(1.4vw, 16px);
+}
+.aboutText{
+    font-size: max(1.5vw, 16px);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.aboutPic{
+    margin-top:0;
 }
 
 .badge{
     align-items: left;
     padding: 10px;
-    background: rgba(255, 255, 255, 0.08);
+    background: rgba(99, 98, 98, 0.425);
     transition: ease-in-out 0.3s ;
     border-radius: 0;
     width: 100%;
@@ -32,4 +60,8 @@
     height: 50px;
     margin-right: 10px;
 
+}
+.badge:hover{
+    background: rgba(99, 98, 98, 0.8);
+    transform: scale(1.1);
 }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import aboutPic from '../components/images/aboutme.png'
+import aboutPic from '../components/images/new aboutme.png'
 import c from '../components/images/c lang.svg'
 import cpp from '../components/images/c++ lang.svg'
 import eth from '../components/images/eth.svg'
@@ -32,25 +32,25 @@ export default class About extends Component {
             animate={{opacity:1}} 
             exit={{opacity:0, transition:{duration:0.5},ease:"easeInOut"}}
             className='container aboutpage'>
+                <div>
                 <center><img src={aboutPic} className="aboutPic" /></center>
-                <div className="contactbg">
                     <span className='heading'>PERSONAL <span className='format'>INFO</span></span> 
                     <hr />  
                     <div className='personal-info d-flex justify-content-evenly'>
-                        <div className='left'>
-                            <ul>
-                                <li><span className='subhead'>Name:</span>  Harsh Kashyap</li>
-                                <li><span className='subhead'>Age:</span>  20 </li>
-                                <li><span className='subhead'>college name:</span>  VIT Vellore </li>
-                                <li><span className='subhead'>Branch:</span>  CSE Specialization in BlockChain Technology</li>
-                                <li><span className='subhead'>City:</span>  Jaipur ,Rajasthan</li>
-                                <li><span className='subhead'>Job/Internship:</span>  Available</li>
-                                <li><span className='subhead'>Email:</span> <a href="mailto:harshkashyap2012002@mail.com" className='link'>harshkashyap2012002@gmail.com</a></li>
-                                <li><span className='subhead'>Phone:</span> <a href="tel:+916367575699" className='link'>+91-6367575699</a></li>
+                        <div className='left me-5'>
+                            <ul className='baseFont'>
+                                <li><span className='subheadAbout'>Name:</span>  Harsh Kashyap</li>
+                                <li><span className='subheadAbout'>Age:</span>  20 </li>
+                                <li><span className='subheadAbout'>College name:</span>  VIT Vellore </li>
+                                <li><span className='subheadAbout'>Branch:</span>  CSE Specialization in BlockChain Technology</li>
+                                <li><span className='subheadAbout'>City:</span>  Jaipur ,Rajasthan</li>
+                                <li><span className='subheadAbout'>Job/Internship:</span>  Available</li>
+                                <li><span className='subheadAbout'>Email:</span> <a href="mailto:harshkashyap2012002@mail.com" className='link'>harshkashyap2012002@gmail.com</a></li>
+                                <li><span className='subheadAbout'>Phone:</span> <a href="tel:+916367575699" className='link'>+91-6367575699</a></li>
                             </ul>
                         </div>
                         <div className='right ms-3'>
-                            <p>Full stack developer and a blockchain enthusiast. Passionate about implementing and launching new projects, currently in my 3rd year at Vellore Institute of Technology. Having technical experience of building, maintaining, and deploying full stack web applications and decentralized apps.I can adapt to any technology rapidly, making myself flexible in any tech stack. A diligent person strong in design and integration with intuitive problem-solving skills who wants to learn continuously. Looking to start the career as an entry-level software engineer with a reputed firm driven by technology to translate business requirements into technical solutions.</p>
+                            <p className='aboutText'>Full stack developer and a blockchain enthusiast. Passionate about implementing and launching new projects, currently in my 3rd year at Vellore Institute of Technology. Having technical experience of building, maintaining, and deploying full stack web applications and decentralized apps.I can adapt to any technology rapidly, making myself flexible in any tech stack. A diligent person strong in design and integration with intuitive problem-solving skills who wants to learn continuously. Looking to start the career as an entry-level software engineer with a reputed firm driven by technology to translate business requirements into technical solutions.</p>
                         </div>
                     </div>
                     <hr />

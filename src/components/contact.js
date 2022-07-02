@@ -10,33 +10,33 @@ export default class contact extends Component {
         initial={{opacity:0}} 
             animate={{opacity:1, transition:{duration:2}}} 
             exit={{opacity:0, transition:{duration:0.5},ease:"easeInOut"}}
-        className='container'>
+        className='container  contactbg'>
             <center><img src={getTouch} className='contactPic'/></center>
-            <div className="container contactbg d-flex justify-content-between">
+            <div className="container d-flex justify-content-between">
                 <div className="left">
                     <span className='shy'>DON'T BE SHY !</span><hr />
-                    <p><span className='textContact'>Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</span></p>
+                    <p><span className='textContact aboutText'>Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</span></p>
                     <br />
                     <ul className='connectlist'>
                         <li>
-                            <span className='bold'>ADDRESS POINT</span>
+                            <span className='contactInfo'>ADDRESS POINT</span>
                             <li className='place'> 37-A Ekta vihar, Govind Nagar(w) Jaipur , Rajasthan , India.</li>
                         </li>
                         <li>
-                            <span className='bold'>MAIL ME</span>
+                            <span className='contactInfo'>MAIL ME</span>
                             <li className='place'><a href="mailto:harshkashyap2012002@mail.com" className='link'>harshkashyap2012002@gmail.com</a></li>
                         </li>
                         <li>
-                            <span className='bold'>CALL ME</span>
+                            <span className='contactInfo'>CALL ME</span>
                             <li className='place'><a href="tel:+916367575699" className='link'>+91-6367575699</a></li>
                         </li>
                     </ul>
                     <div className="social-container">
                         <ul className="social-icons">
-                            <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                            <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i className="fa fa-github"></i></a></li>
+                            <li><a href="https://www.instagram.com/harshkashyap0201/" target="_blank"><i className="fa fa-instagram"></i></a></li>
+                            <li><a href="https://twitter.com/HarshKashyap021?s=09" target="_blank"><i className="fa fa-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/harsh-kashyap-b8b584160" target="_blank"><i className="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://github.com/harsh-kashyap0201" target="_blank"><i className="fa fa-github"></i></a></li>
                         </ul>
                     </div>
                 </div>

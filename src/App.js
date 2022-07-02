@@ -5,6 +5,7 @@ import Resume from './components/resume'
 import About from './components/newabout';
 import Contact from './components/contact';
 import AnimatedRoutes from './components/AnimatedRoutes';
+import ScrollToTop from './ScrollToTop';
 import {
   Routes,
   Route,
@@ -17,6 +18,7 @@ export default class App extends Component {
     
     return (
         <BrowserRouter>
+        <ScrollToTop />
           <div>
             <Navbar />
             <AnimatedRoutes />

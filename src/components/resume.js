@@ -60,8 +60,8 @@ export default class Resume extends Component {
                                     </ul>
                                 </li>
                                 <li className="droplistitem">
-                                    <span className="headitem">INTERNSHALA</span> <span className="date">January, 2022 - February, 2022</span> <li><span className="place">Internshala Student</span></li>
-                                    Partner (ISP 27)
+                                    <span className="headitem">INTERNSHALA</span> <span className="date">January, 2022 - February, 2022</span> <li><span className="place">Internshala Student Partner (ISP 27)</span></li>
+                                    
                                     <ul type="disc">
                                         <li className="data">
                                             Promoted Internshala and their various courses in my college.
@@ -80,29 +80,30 @@ export default class Resume extends Component {
                                 <span className="subhead format">MY SKILLS</span> <hr/> 
                                 <ul className="droplist data" type="disc">
                                     <li className="droplistitem">
-                                        Blockchain : DApps, Solidity, Web3.js, Truf le, Ethereum,
+                                         <span className="headitem">Blockchain :</span> DApps, Solidity, Web3.js, Truf le, Ethereum,
                                         Metamask, Remix IDE, Genache
                                     </li>
                                     <li className="droplistitem">Database : MySQL Server, MongoDB</li>
                                     <li className="droplistitem">
-                                        Cryptograpghy : Public key encryption, Private key
+                                         <span className="headitem">Cryptograpghy : </span> Public key encryption, Private key
                                         encryption, Hashing, Digital Signature
                                     </li>
                                     <li className="droplistitem">
-                                        Soft Skills : Innovative,collaborative, Problem-solving,
+                                         <span className="headitem">Soft Skills : </span> Innovative,collaborative, Problem-solving,
                                         Teamwork, logical reasoning
                                     </li>
                                     <li className="droplistitem">
-                                        Full stack Web-Development : MongoDB, ExpressJS,
+                                         <span className="headitem">Full stack Web-Development : </span> MongoDB, ExpressJS,
                                         React.js,Node.js
                                     </li>
                                     <li className="droplistitem">
-                                        Programming Language : Python, Java, Solidity, JavaScript,
+                                         <span className="headitem">Programming Language : </span> Python, Java, Solidity, JavaScript,
                                         C, C++
                                     </li>
-                                    <li className="droplistitem">Version Control : Git , Github</li>
                                     <li className="droplistitem">
-                                        Other : Windowsenvironments and APIs, Systemssoftware, Data
+                                        <span className="headitem">Version Control : </span>Git , Github</li>
+                                    <li className="droplistitem">
+                                         <span className="headitem">Other : </span> Windowsenvironments and APIs, Systemssoftware, Data
                                         strucures and algorithms, Network programming, AJAX, JSON
                                     </li>
                                 </ul>
@@ -150,7 +151,7 @@ export default class Resume extends Component {
                                         <li className="data">
                                             Tech Stack: React, Solidity, Truffle, Ethereum testnet
                                         </li>
-                                        <li className="data">Link to project</li>
+                                        <li className="data"> <a href="https://github.com/harsh-kashyap0201/Faucet-dapp" target="_blank" className="linkStyle">Link to project</a></li>
                                     </ul>
                                 </li>
 
@@ -182,7 +183,7 @@ export default class Resume extends Component {
                                             Tech Stack: Mongo DB ,Mongoose ,Express js ,Node js
                                             ,Node-Geocoder,Passport.Js
                                         </li>
-                                        <li>Link to project</li>
+                                        <li><a href="https://github.com/harsh-kashyap0201/yelpCamp" target="_blank" className="linkStyle">Link to project</a></li>
                                     </ul>
                                 </li>
 
@@ -213,7 +214,7 @@ export default class Resume extends Component {
                                             Tech Stack: Chrome Extension CLI, NSFW images detection
                                             and classification API, JavaScipt, Manifest V3
                                         </li>
-                                        <li className="data">Link to project</li>
+                                        <li className="data"><a href="https://github.com/harsh-kashyap0201/NSFW-Preventor" target="_blank" className="linkStyle">Link to project</a></li>
                                     </ul>
                                 </li>
 
@@ -239,7 +240,7 @@ export default class Resume extends Component {
                                             </ul>
                                         </li>
                                         <li>Tech Stack: React js, News API, Bootstrap v5.1</li>
-                                        <li>Link to project</li>
+                                        <li><a href="https://github.com/harsh-kashyap0201/News-Today-App" target="_blank" className="linkStyle">Link to project</a></li>
                                     </ul>
                                 </li>
                             </ul>

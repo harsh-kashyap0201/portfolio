@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 
 .contactbg {
-    background: rgba(255, 255, 255, 0.06);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(0.9px);
-    -webkit-backdrop-filter: blur(0.9px);
-    padding: 2vw;
-    margin-bottom: 2vh;
+    background: rgba(0, 0, 0, 0.7);
+/* border-radius: 16px; */
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+    padding: 0vw 2vh;
+    transition: all 265ms ease-out;
+    margin-top: 7vh;;
+    margin-right: 6vw;
+}
+
+.contactPic{
+    margin-top: 0;
 }
 
 .social-container {
@@ -85,9 +92,13 @@
 
 .shy {
     font-family: 'Oswald', sans-serif;
-    font-size: 4vh;
+    font-size: max(3vw,25px);
+    color: #fa4ab6
 }
-
+.contactInfo{
+    font-size:  max(1.3vw, 16px);
+    color: #fa4ab6;
+}
 .link {
     color: floralwhite;
     text-decoration: none;
@@ -102,14 +113,14 @@
     border-radius: 0;
     border: none;
     font-size: 3vh;
-    background-color: #1A1441;
+    background-color: #bab4df31;
     color: #fff;
     margin-bottom: 3vh;
   }
   
   .textbox:focus {
     outline: none;
-    background-color: #1A1441;
+    background-color: #bab4df31;
     color: #fff;
   }
 
@@ -122,16 +133,22 @@
     border: none;
     color: #fff;
     font-size: 3vh;
-    background-color: #1A1441;
+    background-color: #bab4df31;
     margin-bottom: 3vh;
 }
 
 .textarea:focus {
     outline: none;
-    background-color: #1A1441;
+    background-color: #bab4df31;
     color: #fff;
     opacity: .87;
   }
+.textbox::after{
+    background-color: #bab4df31;
+}
+.textbox:focus::after{
+    background-color: #bab4df31;
+}
 
 
 .contactform{

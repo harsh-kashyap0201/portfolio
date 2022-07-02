@@ -2,12 +2,16 @@ hr{
     width: 95%;
 }
 .resume{    
-    background: rgba(255, 255, 255, 0.06);
+    /* From https://css.glass */
+    background: rgba(0, 0, 0, 0.7);
+    /* border-radius: 16px; */
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(0.9px);
-    -webkit-backdrop-filter: blur(0.9px);
-    padding: 2vw;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+        padding: 2vw;
     transition: all 265ms ease-out;
+    margin:auto;
+    margin-right: 6vw;
 }
 
 
@@ -49,7 +53,7 @@ hr{
     font-size: 1.1rem;
     font-weight: 500;
     margin-bottom: 1rem;
-    color: #fa4ab6;
+    color: #fa39b0;
 }
 
 .date{
@@ -71,4 +75,12 @@ hr{
 .data{
     font-size: 1rem;
     margin-bottom: 1rem;
+}
+.linkStyle{
+    color: #ff82cf;
+    text-decoration: none;
+}
+.linkStyle:hover{
+    text-decoration: underline;
+    color: #ff82cf;
 }

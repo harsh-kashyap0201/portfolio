@@ -9,8 +9,9 @@ export default class Home extends Component {
             <motion.div 
             initial={{opacity:0}} 
             animate={{opacity:1}} 
-            exit={{opacity:0,transition:{duration:0.5}}}>
-            <div className="area" >
+            exit={{opacity:0,transition:{duration:0.5}}}
+            className="area">
+            <div>
                         <ul className="circles">
                                 <li></li>
                                 <li></li>
@@ -46,14 +47,14 @@ export default class Home extends Component {
                         </a>
                         </h1>
                     </h1>
-                    <p className="text-start">
+                    <p className="text-start homepagetext">
                         I'm a Full stack developer and a Blockchain Enthusiast based in India. Currently in my 3rd year at Vellore Institute of Technology.
                     </p>
-                    <div className="button_slide slide_right ">MORE ABOUT ME </div>
+                    
                 </div>
             </div>
+            <div className=''> <center>Made with 💓 by <span className='format'>Harsh</span></center></div>
             </div >
-            <div className='my-3'> <center>Made with 💓 by <span className='format'>Harsh</span></center></div>
             </motion.div>
         );
     }

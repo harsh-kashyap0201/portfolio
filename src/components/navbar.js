@@ -2,7 +2,6 @@ import { Component } from "react";
 import {Link} from "react-router-dom";
 import "../components/styles/home.css"
 import "../components/styles/navbar.css"
-import "./ja/menu.js"
 
 export default class Navbar extends Component {
     
