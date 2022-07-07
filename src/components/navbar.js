@@ -18,7 +18,7 @@ export default class Navbar extends Component {
                         <Link to="/about" className="side">about</Link>
                     </li>
                     <li className="menu_list">
-                        <span className="front fas fa-paper-plane"></span>
+                        <span className="front fas fa-file"></span>
                         <Link to="/resume" className="side">Resume</Link>
                     </li>
                     {/* <li className="menu_list">
