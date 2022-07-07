@@ -8,27 +8,26 @@ export default class Navbar extends Component {
     render() {
         return (
             <div>
-                
-                 <ul class="menu">
-                    <li class="menu_list">
-                        <span class="front fas fa-home"></span>
-                        <Link to="/" class="side">home</Link>
+                <ul className="menu">
+                    <li className="menu_list">
+                        <span className="front fas fa-home"></span>
+                        <Link to="/" className="side">home</Link>
                     </li>
-                    <li class="menu_list">
-                        <span class="front fas fa-info"></span>
-                        <Link to="/about" class="side">about</Link>
+                    <li className="menu_list">
+                        <span className="front fas fa-info"></span>
+                        <Link to="/about" className="side">about</Link>
                     </li>
-                    <li class="menu_list">
-                        <span class="front fas fa-paper-plane"></span>
-                        <Link to="/resume" class="side">Resume</Link>
+                    <li className="menu_list">
+                        <span className="front fas fa-paper-plane"></span>
+                        <Link to="/resume" className="side">Resume</Link>
                     </li>
-                    <li class="menu_list">
-                        <span class="front fas fa-briefcase"></span>
-                        <Link to="/" class="side">projects</Link>
-                    </li>
-                    <li class="menu_list">
-                        <span class="front fas fa-paper-plane"></span>
-                        <Link to="/contact" class="side">contact</Link>
+                    {/* <li className="menu_list">
+                        <span className="front fas fa-briefcase"></span>
+                        <Link to="/project" className="side">projects</Link>
+                    </li> */}
+                    <li className="menu_list">
+                        <span className="front fas fa-paper-plane"></span>
+                        <Link to="/contact" className="side">contact</Link>
                     </li>
                 </ul> 
 

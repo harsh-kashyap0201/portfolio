@@ -3,6 +3,7 @@ import Home from './home'
 import Resume from './resume'
 import About from './newabout';
 import Contact from './contact';
+import Project from './project';
 import {
   Routes,
   Route,
@@ -20,6 +21,7 @@ function AnimatedRoutes() {
             <Route path="/about" element={<About />} />
             <Route path="/resume" element={<Resume />} /> 
             <Route path="/contact" element={<Contact />} />
+            <Route path="/project" element={<Project />} />
         </Routes>
     </AnimatePresence>
   )
