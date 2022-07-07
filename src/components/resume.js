@@ -83,7 +83,7 @@ export default class Resume extends Component {
                                          <span className="headitem">Blockchain :</span> DApps, Solidity, Web3.js, Truf le, Ethereum,
                                         Metamask, Remix IDE, Genache
                                     </li>
-                                    <li className="droplistitem">Database : MySQL Server, MongoDB</li>
+                                    <li className="droplistitem"><span className="headitem">Database : </span>MySQL Server, MongoDB</li>
                                     <li className="droplistitem">
                                          <span className="headitem">Cryptograpghy : </span> Public key encryption, Private key
                                         encryption, Hashing, Digital Signature
@@ -161,7 +161,7 @@ export default class Resume extends Component {
                                     <ul className="data" type="disc">
                                         <li className="data">
                                             Created a full-stack web-based, a multi-functional
-                                            application developed to learn Fullstack web development
+                                            application following MVC architecture, developed to learn Fullstack web development
                                             containing details of more than 50 campgrounds around the
                                             globe
                                         </li>
@@ -171,17 +171,25 @@ export default class Resume extends Component {
                                                 <li>
                                                     Responsive web design (RWD) with User authentication
                                                     (Login/Register/Logout) and authorization
-                                                    (Post/Like/Edit)
+                                                    (Post/Like/Edit/Add reviews) with MongoDB Atlas cloud database to store data
                                                 </li>
                                                 <li>
-                                                    Flashes messages responding to users' interaction with
-                                                    RESTful API and follows MVC architecture
+                                                    Included features like image upload using Cloudinary as cloud database and geocoding maps for locating campgrounds using mapbox.
+                                                </li>
+                                                <li>
+                                                Flashes messages using connect-flash and express-session responding to users'interaction with RESTful API and session management.
+                                                </li>
+                                                
+                                                <li>
+                                                Included Security features using JOI, express mongo sanitize , sanitize html , helmet to prevent mongo injections, Cross Site Scripting (XSS) attacks.
+                                                </li>
+                                                <li>
+                                                Created content security policy to prevent malicious scripts from being injected in website.
                                                 </li>
                                             </ul>
                                         </li>
                                         <li>
-                                            Tech Stack: Mongo DB ,Mongoose ,Express js ,Node js
-                                            ,Node-Geocoder,Passport.Js
+                                            Tech Stack: Mongo DB ,Mongoose ,Express js ,Node js ,Node-Geocoder ,Passport.Js ,MongoDB Atlas cloud database, Cloudinary
                                         </li>
                                         <li><a href="https://github.com/harsh-kashyap0201/yelpCamp" target="_blank" className="linkStyle">Link to project</a></li>
                                     </ul>
