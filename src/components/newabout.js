@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import aboutPic from '../components/images/new aboutme.png'
 import c from '../components/images/c lang.svg'
-import cpp from '../components/images/c++ lang.svg'
+import cpp from '../components/images/cpp.svg'
 import eth from '../components/images/eth.svg'
 import exp from '../components/images/exp.svg'
 import genache from '../components/images/genache.svg'
