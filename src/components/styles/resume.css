@@ -84,3 +84,11 @@ hr{
     text-decoration: underline;
     color: #ff82cf;
 }
+.resumeLink{
+    color: #D80286;
+    text-decoration: none;
+}
+.resumeLink:hover{
+    text-decoration: underline;
+    color: #D80286;
+}

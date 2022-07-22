@@ -9,7 +9,7 @@ export default class Resume extends Component {
             animate={{opacity:1}} 
             exit={{opacity:0, transition:{duration:0.5},ease:"easeInOut"}}
             className="resume container my-5">
-                <span className="heading ">CHECK MY <span className="format">RESUME</span> </span> 
+                <span className="heading ">CHECK MY <a href="https://drive.google.com/file/d/1VG9UL2mWmtxonJd6Gjv3sGBkDCh1_mpi/view?usp=sharing" className="resumeLink"><span className="format">RESUME</span></a> </span> 
                 <div className="container my-3 d-flex justify-content-between">
                     <div className="left me-5">
                         <div>

@@ -30,10 +30,6 @@ export default class Navbar extends Component {
                         <Link to="/contact" className="side">contact</Link>
                     </li>
                 </ul> 
-
-                
-               
-                
                 </div>
 )
 }}

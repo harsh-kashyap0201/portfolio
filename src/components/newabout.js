@@ -58,64 +58,64 @@ export default class About extends Component {
                         <span className='heading'>MY <span className='format'>SKILLS</span></span>
                     <div className="row my-3">
                         <div className='col-lg-3 col-md-4 mt-4 mt-md-0'>
-                            <div className="badge"> <img src={sol} alt="solidity" srcSet="" /> Solidity</div>
+                            <div className="badge"> <img src={sol} alt="" srcSet="" /> Solidity</div>
                         </div>
                         <div className='col-lg-3 col-md-4 mt-4 mt-md-0'>
-                            <div className="badge"> <img src={truffle} alt="solidity" srcSet="" /> Truffle</div>
+                            <div className="badge"> <img src={truffle} alt="" srcSet="" /> Truffle</div>
                         </div>
                         <div className='col-lg-3 col-md-4 mt-4 mt-md-0'>
-                            <div className="badge"> <img src={eth} alt="solidity" srcSet="" /> Ethereum</div>
+                            <div className="badge"> <img src={eth} alt="" srcSet="" /> Ethereum</div>
                         </div>
                         <div className='col-lg-3 col-md-4 mt-4 mt-md-0'>
-                            <div className="badge"> <img src={web} alt="solidity" srcSet="" /> Web3.js</div>
+                            <div className="badge"> <img src={web} alt="" srcSet="" /> Web3.js</div>
                         </div>
                         <div className='col-lg-3 col-md-4 mt-4 mt-md-0'>
-                            <div className="badge"> <img src={metamask} alt="solidity" srcSet="" />Metamask </div>
+                            <div className="badge"> <img src={metamask} alt="" srcSet="" />Metamask </div>
                         </div>
                         <div className='col-lg-3 col-md-4 mt-4 mt-md-0'>
-                            <div className="badge"> <img src={genache} alt="solidity" srcSet="" /> Genache</div>
+                            <div className="badge"> <img src={genache} alt="" srcSet="" /> Genache</div>
                         </div>
                         <div className='col-lg-3 col-md-4 mt-4 mt-md-0'>
-                            <div className="badge"> <img src={remix} alt="solidity" srcSet="" /> Remix IDE</div>
+                            <div className="badge"> <img src={remix} alt="" srcSet="" /> Remix IDE</div>
                         </div>
                         <div className='col-lg-3 col-md-4 mt-4 mt-md-0'>
-                            <div className="badge"> <img src={mongo} alt="solidity" srcSet="" /> MongoDB</div>
+                            <div className="badge"> <img src={mongo} alt="" srcSet="" /> MongoDB</div>
                         </div>
                         <div className='col-lg-3 col-md-4 mt-4 mt-md-0'>
-                            <div className="badge"> <img src={exp} alt="solidity" srcSet="" /> ExpressJS</div>
+                            <div className="badge"> <img src={exp} alt="" srcSet="" /> ExpressJS</div>
                         </div>
                         <div className='col-lg-3 col-md-4 mt-4 mt-md-0'>
-                            <div className="badge"> <img src={rj} alt="solidity" srcSet="" /> ReactJS</div>
+                            <div className="badge"> <img src={rj} alt="" srcSet="" /> ReactJS</div>
                         </div>
                         <div className='col-lg-3 col-md-4 mt-4 mt-md-0'>
-                            <div className="badge"> <img src={nodejs} alt="solidity" srcSet="" /> NodeJS</div>
+                            <div className="badge"> <img src={nodejs} alt="" srcSet="" /> NodeJS</div>
                         </div>
                         <div className='col-lg-3 col-md-4 mt-4 mt-md-0'>
-                            <div className="badge"> <img src={heroku} alt="solidity" srcSet="" /> Heroku</div>
+                            <div className="badge"> <img src={heroku} alt="" srcSet="" /> Heroku</div>
                         </div>
                         <div className='col-lg-3 col-md-4 mt-4 mt-md-0'>
-                            <div className="badge"> <img src={mysql} alt="solidity" srcSet="" /> MYSQL</div>
+                            <div className="badge"> <img src={mysql} alt="" srcSet="" /> MYSQL</div>
                         </div>
                         <div className='col-lg-3 col-md-4 mt-4 mt-md-0'>
-                            <div className="badge"> <img src={py} alt="solidity" srcSet="" /> Python</div>
+                            <div className="badge"> <img src={py} alt="" srcSet="" /> Python</div>
                         </div>
                         <div className='col-lg-3 col-md-4 mt-4 mt-md-0'>
-                            <div className="badge"> <img src={java} alt="solidity" srcSet="" /> Java</div>
+                            <div className="badge"> <img src={java} alt="" srcSet="" /> Java</div>
                         </div>
                         <div className='col-lg-3 col-md-4 mt-4 mt-md-0'>
-                            <div className="badge"> <img src={c} alt="solidity" srcSet="" /> C</div>
+                            <div className="badge"> <img src={c} alt="" srcSet="" /> C</div>
                         </div>
                         <div className='col-lg-3 col-md-4 mt-4 mt-md-0'>
-                            <div className="badge"> <img src={cpp} alt="solidity" srcSet="" /> C++</div>
+                            <div className="badge"> <img src={cpp} alt="" srcSet="" /> C++</div>
                         </div>
                         <div className='col-lg-3 col-md-4 mt-4 mt-md-0'>
-                            <div className="badge"> <img src={js} alt="solidity" srcSet="" /> Javascripts</div>
+                            <div className="badge"> <img src={js} alt="" srcSet="" /> Javascripts</div>
                         </div>
                         <div className='col-lg-3 col-md-4 mt-4 mt-md-0'>
-                            <div className="badge"> <img src={git} alt="solidity" srcSet="" /> Git</div>
+                            <div className="badge"> <img src={git} alt="" srcSet="" /> Git</div>
                         </div>
                         <div className='col-lg-3 col-md-4 mt-4 mt-md-0'>
-                            <div className="badge"> <img src={github} alt="solidity" srcSet="" /> Github</div>
+                            <div className="badge"> <img src={github} alt="" srcSet="" /> Github</div>
                         </div>
                     </div>
 
