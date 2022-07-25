@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import getTouch from '../components/images/Frame 1 (1).png'
+import getTouch from '../components/images/CONNECT.png'
 import './styles/contact.css'
 import {motion} from 'framer-motion';
 export default class contact extends Component {
